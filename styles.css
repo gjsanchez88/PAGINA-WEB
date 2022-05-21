@@ -49,7 +49,9 @@ a:hover{
     color:#ED553B;
 }
 
-
+p{
+    line-height: 0.5rem;
+}
 
 /*index*/
 #contenedor-index{
@@ -84,9 +86,10 @@ a:hover{
 /*contacto*/
 .titulos{
     text-align: center;
+    font-size: 2.5rem;
 }
 
-#contenedor-contacto{
+.contenedor-contacto{
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
@@ -97,14 +100,36 @@ a:hover{
     padding: 1.5rem;
     width: fit-content;
     gap: 1.5rem;
-    width: 100%;
-   
-    
+    width: 100%;  
+    font-size: 1.5rem;
 
 }
 
 
+.contenedor-contacto2{
+    display:grid;
+    /*grid-template-columns: 10rem 20rem 10rem;*/
+   
+    grid-template-columns: 15rem 35rem 15rem 45rem;
+
+    /*para meter margen entre columnas*/
+    column-gap: 0.5rem;
+    row-gap: 0.9rem;
+
+}
 /*
+#sede1{
+    width: 30%;
+}
+#sede2{
+    width: 30%;
+}
+#sede3{
+    width: 30%;
+}
+
+
+
 @media screen and (max-width: 600px){
     #sede1{
     width: 70%;
