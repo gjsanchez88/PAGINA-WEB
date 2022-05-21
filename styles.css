@@ -1,3 +1,7 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -34,3 +38,31 @@ a{
 a:hover{
     color:brown;
 }
+
+.titulos{
+    text-align: center;
+}
+
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sede1,
+.sede2,
+.sede3{
+    width: 100%;
+
+}
+
+@media screen (min-width: 600px){
+    .sede1{
+        
+    }
+}
+
