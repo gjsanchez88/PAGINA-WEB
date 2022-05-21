@@ -43,10 +43,11 @@ li{
 
 a{
     text-decoration: none;
+    color: #161E54
 }
 
 a:hover{
-    color:#ED553B;
+    color: #20639B;
 }
 
 p{
@@ -58,21 +59,24 @@ p{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .itemindex{
     width: 25%;
     height: 10rem;
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #161E54;
 }
 
 .i-quienessomos{
-    background: #20639B;
+    background: #3CAEA3;
 }
 
 .i-infoacademica{
-    background: #3CAEA3;
+    background: #9BDD97;
 }
 
 .i-bolsatrabajo{
@@ -103,6 +107,7 @@ p{
     width: 100%;  
     font-size: 1.5rem;
 
+    width: 100%;
 }
 
 
