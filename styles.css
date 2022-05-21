@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%; /*10px si quiero que disminuya el tamaño de todo puedo disminuir el porcentaje*/
+}
+
 *{
     font-family: 'Quicksand', sans-serif;
 }
@@ -9,18 +13,24 @@ body{
 }
 
 header{
-    background-color: rgb(32, 99, 155);
+    background-color: #D9D9D9;
     display: flex;
     justify-content: space-between;
     height: 10vh;
 }
 
-img{
+.logo{
     height: 10vh;
     padding-left: 1vh;
     align-items: center;
 }
 
+.fondo{
+    display: flex;
+    width: 100%;
+}
+
+/*navegacion*/
 ul{
     display: flex;
     align-items: center;
@@ -36,9 +46,40 @@ a{
 }
 
 a:hover{
-    color:brown;
+    color:#ED553B;
 }
 
+/*index*/
+#contenedor-index{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.itemindex{
+    width: 25%;
+    height: 10rem;
+    text-align: center;
+}
+
+.i-quienessomos{
+    background: #20639B;
+}
+
+.i-infoacademica{
+    background: #3CAEA3;
+}
+
+.i-bolsatrabajo{
+    background: #F6D55E;
+}
+
+.i-contacto{
+    background: #ED553B;
+}
+
+/*contacto*/
 .titulos{
     text-align: center;
 }
@@ -66,6 +107,7 @@ a:hover{
     }
 }
 
+/*footer*/ 
 footer{
-    background-color: rgb(32, 99, 155);
+    background-color: #D9D9D9;
 }
