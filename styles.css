@@ -17,6 +17,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    height: 10vh;
     
 }
 
@@ -111,20 +112,96 @@ p{
     font-size: 1.5rem;
 
     width: 100%;
+    margin-bottom: 10rem;
 }
 
 
 .contenedor-contacto2{
+
+    height: auto;
+    padding: 1rem;
     display:grid;
+    
     /*grid-template-columns: 10rem 20rem 10rem;*/
    
-    grid-template-columns: 15rem 35rem 15rem 45rem;
+    grid-template-areas: "uno dos";
+    
 
     /*para meter margen entre columnas*/
-    column-gap: 0.5rem;
-    row-gap: 0.9rem;
+    
+    
+    
 
 }
+
+
+.gridarea1{
+    display: grid;
+    grid-area: uno;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.form-long{
+    padding:  2rem 2rem; /*primero el padding en la parte superior e inferior, luego a los lados*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.input{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border:none;
+    border-bottom: solid #161E54 0.2rem;
+    transition: all 0.5s;
+}
+
+#btm-submit, 
+#btm-reset{
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border:none;
+    background-color:#D9D9D9;
+    color:#20639B;
+    transition: all 0.5s;
+
+}
+
+#botones{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+
+.gridarea2{
+    display:grid;
+    grid-area: dos;
+    grid-template-rows: 12%  29% 29% 29%;
+}
+
+.links-contacto{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    align-content: start;
+    grid-gap: 1rem;
+}
+
+
+.btm-redes{
+    border: 0.2rem solid  #20639B;
+    border-radius: 1rem;
+    
+    padding: 1rem;
+    
+}
+
+
 /*
 #sede1{
     width: 30%;
