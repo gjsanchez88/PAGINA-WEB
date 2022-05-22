@@ -74,64 +74,74 @@
             
         </div>
 
+
+
+
         <div class="contenedor-contacto2">
-            <section> </section>
             
-            <section id="formulario-contacto">
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Nombre y Apellido</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-                  </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+          
+            
+            <section> 
+                       
+                
+            <fieldset>
+                <legend class="titulos">Suscribite a nuestra comunidad!</legend>
+                
+                <form class="form-long" action="https://formspree.io/f/moqrrarr" method="post">
+                    <!--todo el formulario se procesa con lo que le pongo en action, la info se manda con un buttom o un imput 
+                    entramos a formspree.io, nos creamos una cuenta, LISTO, creamos nuevo formulario, copiamos el link que nos da la pagina en action y usamos el metodo POST para que no ventile la inforacion por el URL de la pagina que si lo hace en el metdo GET, esto lo que hace es mandar los resultados al mail que registraste en formspree.io, en la pestaña de submissions en formspree aparece los formularios -->
+                
+                    
+                    <input class="input" type="text" name="nombre" placeholder=" Nombre" required autofocus>
+                    
+                
+                    <!-- para que el label se referencie con el imput, el label for ="ACA  " tiene que ser lo mismo que el ID del imput
+                    el name es el nombre de la columna del excel que se va a generar para recolectar los formularios recibidos -->
+                    <!-- otra forma de hacer-->
+                
+                
+                    
+                    <input class="input" type="text"  name="apellido" placeholder=" Apellido" required autofocus>
+                              
+                
+                    
+                    <input class="input" type="email" name="email"  placeholder=" E-mail: name@example.com" required autofocus>
+                    
+                
+                    
+                    <input class="input" type="text"  name="universidad" placeholder=" Universidad"    required>
+                    
+                
+                    
+                    <textarea class="input" name="Comentarios" placeholder=" Comentarios" id="" cols="20" rows="5"></textarea>
+                    
+                
+                   
+        
+            
+
+            
+                    <div id="botones">
+                        <section>
+                            <input id="btm-reset" type="reset" name="reset"><!-- aparece un boton que dice restablecer -->
+                        </section>
+                        
+                        <section>
+                            <input id="btm-submit" type="submit" value="submit"><!--aparece un boton de submit que reestablece y envia la info al mail o se cargue en un excel, hay 3 formas de guardar la info -->
+                        </section>
+                        
+            
+                    </div>
+
+
+                 </form> 
+
+            </fieldset> 
+
             </section>
-
-            <form action="https://formspree.io/f/mpzbyqwd" method="post">
-                <!--todo el formulario se procesa con lo que le pongo en action, la info se manda con un buttom o un imput 
-                entramos a formspree.io, nos creamos una cuenta, LISTO, creamos nuevo formulario, copiamos el link que nos da la pagina en action y usamos el metodo POST para que no ventile la inforacion por el URL de la pagina que si lo hace en el metdo GET, esto lo que hace es mandar los resultados al mail que registraste en formspree.io, en la pestaña de submissions en formspree aparece los formularios -->
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <!-- para que el label se referencie con el imput, el label for ="ACA  " tiene que ser lo mismo que el ID del imput
-                el name es el nombre de la columna del excel que se va a generar para recolectar los formularios recibidos -->
-                <!-- otra forma de hacer-->
                 
-                <div>
-                    <label> Apellido:
-                        <input type="text" name="apellido">
-                    </label>
-                </div>
+            
                 
-                <div>
-
-                </div>
-                <label>E-mail:
-                    <input type="email" id="email" placeholder="name@example.com">
-                </label>
-        
-                <label>
-                    Comentarios: 
-                    <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
-                </label>
-        
-                <fieldset>
-                    <legend>Datos personales Iron Man </legend>
-                    <label>Bicicleta elegida:
-                        <input type="text"name:"bici">
-                    </label>
-                    <!-- esto es para que el formulario quede ordenado-->
-                </fieldset>
-        
-                <input type="reset" name="reset"><!-- aparece un boton que dice restablecer -->
-        
-                <input type="submit" value="submit"><!--aparece un boton de submit que reestablece y envia la info al mail o se cargue en un excel, hay 3 formas de guardar la info -->
         
         
 
@@ -144,7 +154,7 @@
             <section></section>
 
             <section>
-                <div>
+                <div class="titulos">
                     Redes sociales
 
                 </div>
