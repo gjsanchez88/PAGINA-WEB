@@ -91,6 +91,46 @@ p{
     background: #ED553B;
 }
 
+/*Info Academica*/
+
+.iconoinfo{
+    margin: 0 0 1em;
+	padding: 1em 0;
+	text-align: center;
+	color: #161E54;
+}
+
+.tituloinfo{
+	margin: 0 0 1em;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	color: #161E54;
+}
+
+.tarjetainfo{
+    background: white;
+	margin-bottom: 2em;
+	width: 45%;
+}
+
+.cardsinfo{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cardsinfo figure{
+	margin: 0;
+}
+
+.cardsinfo img{
+	display: block;
+	border:0;
+	width: 100%;
+	height: auto;
+}
+
 /*contacto*/
 .titulos{
     text-align: center;
