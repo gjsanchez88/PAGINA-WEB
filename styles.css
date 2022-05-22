@@ -40,6 +40,10 @@ header{
 	color: #161E54;
 }
 
+.titulos2{
+    font-size: 2rem;
+}
+
 .iconos{
     margin: 0 0 1em;
 	padding: 0.5em 0;
@@ -180,13 +184,16 @@ nav p{
 	margin: 0;
 }
 
-.titulos2{
-    font-size: 2rem;
-}
+
     
 
 
+<<<<<<< HEAD
 /*contacto*/
+=======
+
+
+>>>>>>> a4ac31376422c611739616ca2fe48142b05f0cf9
 
 
 .contenedor-contacto{
