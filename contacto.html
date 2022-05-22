@@ -46,6 +46,7 @@
         </DIV>
                 
         <div class="contenedor-contacto">
+
             <section id="sede1">
                 <h2>Paseo Colón</h2>
                 <p>Dirección:</p>
@@ -73,59 +74,42 @@
                 <p>Colectivos: 10 - 37 - 41 - 60 - 61 - 92 - 93 - 95 - 102 - 108 - 110</p>
 
             </section>
-            
+
         </div>
-
-
 
 
         <div class="contenedor-contacto2">
             
-          
-            
             <section class="gridarea1"> 
                        
                 
-            <fieldset>
-                <legend class="titulos">Suscribite a nuestra comunidad!</legend>
-                
-                <form class="form-long" action="https://formspree.io/f/moqrrarr" method="post">
-                    <!--todo el formulario se procesa con lo que le pongo en action, la info se manda con un buttom o un imput 
-                    entramos a formspree.io, nos creamos una cuenta, LISTO, creamos nuevo formulario, copiamos el link que nos da la pagina en action y usamos el metodo POST para que no ventile la inforacion por el URL de la pagina que si lo hace en el metdo GET, esto lo que hace es mandar los resultados al mail que registraste en formspree.io, en la pestaña de submissions en formspree aparece los formularios -->
-                
+                <fieldset>
+                    <legend class="titulos">Suscribite a nuestra comunidad!</legend>
                     
-                    <input class="input" type="text" name="nombre" placeholder=" Nombre" required autofocus>
-                    <!-- para que el label se referencie con el imput, el label for ="ACA  " tiene que ser lo mismo que el ID del imput
-                    el name es el nombre de la columna del excel que se va a generar para recolectar los formularios recibidos -->
-                    <!-- otra forma de hacer-->
-                    <input class="input" type="text"  name="apellido" placeholder=" Apellido" required autofocus>
-                    <input class="input" type="email" name="email"  placeholder=" E-mail: name@example.com" required autofocus>
-                    <input class="input" type="text"  name="universidad" placeholder=" Universidad"    required>        
-                    <textarea class="input" name="Comentarios" placeholder=" Comentarios" id="" cols="20" rows="5"></textarea>
-                    
-            
-            
-                    <div id="botones">
-                        <section>
-                            <input id="btm-reset" type="reset" name="Reset"><!-- aparece un boton que dice restablecer -->
-                        </section>
+                    <form class="form-long" action="https://formspree.io/f/moqrrarr" method="post">
+                                                
+                        <input class="input" type="text" name="nombre" placeholder=" Nombre" required autofocus>
                         
-                        <section>
-                            <input id="btm-submit" type="submit" value="Enviar"><!--aparece un boton de submit que reestablece y envia la info al mail o se cargue en un excel, hay 3 formas de guardar la info -->
-                        </section>
-                        
-            
-                    </div>
+                        <input class="input" type="text"  name="apellido" placeholder=" Apellido" required autofocus>
+                        <input class="input" type="email" name="email"  placeholder=" E-mail: name@example.com" required autofocus>
+                        <input class="input" type="text"  name="universidad" placeholder=" Universidad"    required>        
+                        <textarea class="input" name="Comentarios" placeholder=" Comentarios" id="" cols="20" rows="5"></textarea>
+                                                       
+                        <div id="botones">
+                            <section>
+                                <input id="btm-reset" type="reset" name="Reset">
+                            </section>
+                            
+                            <section>
+                                <input id="btm-submit" type="submit" value="Enviar">
+                            </section>               
+                        </div>
 
+                    </form> 
 
-                 </form> 
+                </fieldset> 
 
-            </fieldset> 
-
-            </section>
-                
-            
-            
+            </section>          
 
             <section class="gridarea2">
                 <div class="titulos">
@@ -145,15 +129,9 @@
                         <a href="https://www.youtube.com/channel/UCtK2dTQoz4u0gBfXOeN45rw"><i class="fa fa-youtube-play fa-2x"> Youtube </i></a>
                     </div>
                     
-                    
-                    
                 </div>
             </section>
         </div>
-
-
-
-        
 
     </main>
 

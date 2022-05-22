@@ -195,16 +195,13 @@ nav p{
 
 
 .contenedor-contacto{
-    display: -webkit-flex;
+
     display: flex;
-    -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
     -webkit-text-size-adjust: 100%;
-    padding: 1.5rem;
     width: fit-content;
-    gap: 1.5rem;
     width: 100%;  
     font-size: 1.5rem;
     margin-bottom: 10rem;
