@@ -118,17 +118,27 @@ p{
 .contenedor-contacto2{
 
     height: auto;
-    margin: 5% auto;
+    padding: 1rem;
     display:grid;
-    padding-bottom: 2rem;
+    
     /*grid-template-columns: 10rem 20rem 10rem;*/
    
-    grid-template-columns: 30rem 35rem 15rem 45rem;
+    grid-template-areas: "uno dos";
+    
 
     /*para meter margen entre columnas*/
-    column-gap: 0.5rem;
-    row-gap: 0.9rem;
+    
+    
+    
 
+}
+
+
+.gridarea1{
+    display: grid;
+    grid-area: uno;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .form-long{
@@ -136,6 +146,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .input{
@@ -148,8 +159,8 @@ p{
 
 #btm-submit, 
 #btm-reset{
-    padding: 0.5rem;
-    margin: 0.5rem 0;
+    padding: 1.5rem;
+    margin: 1.5rem;
     border:none;
     background-color:#D9D9D9;
     color:#20639B;
@@ -160,9 +171,35 @@ p{
 #botones{
     display:flex;
     justify-content: center;
-    padding: 1.5rem;
-    margin: 1.5rem;
+    
+    
 }
+
+
+.gridarea2{
+    display:grid;
+    grid-area: dos;
+    grid-template-rows: 12%  29% 29% 29%;
+}
+
+.links-contacto{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    align-content: start;
+    grid-gap: 1rem;
+}
+
+
+.btm-redes{
+    border: 0.2rem solid  #20639B;
+    border-radius: 1rem;
+    
+    padding: 1rem;
+    
+}
+
 
 /*
 #sede1{
