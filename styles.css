@@ -38,6 +38,7 @@ a{
 
 a:hover{
     color: #20639B;
+    font-size: 1.2em;
 }
 
 header ul{
@@ -63,11 +64,12 @@ p{
 
 .itemindex{
     width: 25%;
-    height: 10rem;
+    height: 8rem;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     color: #161E54;
+    margin-top: 0.5em;
 }
 
 .i-quienessomos{
