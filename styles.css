@@ -111,7 +111,10 @@ p{
 .tarjetainfo{
     background: white;
 	margin-bottom: 2em;
-	width: 45%;
+	width: 40%;
+    font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
 }
 
 .cardsinfo{
@@ -121,7 +124,7 @@ p{
 }
 
 .cardsinfo figure{
-	margin: 0;
+	margin: 5%;
 }
 
 .cardsinfo img{
