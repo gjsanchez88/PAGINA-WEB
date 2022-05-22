@@ -54,7 +54,7 @@ header li{
     margin: 0.5em;
 }
 
-p{
+nav p{
     line-height: 0.5rem;
 }
 
@@ -90,6 +90,46 @@ p{
 .i-contacto{
     background: #ED553B;
 }
+
+/*Quienes somos*/
+
+.iconoquienes{
+    margin: 0 0 1em;
+	padding: 0.5em 0;
+	text-align: center;
+	color: #161E54;
+}
+
+.tituloquienes{
+	margin: 0 0 1em;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	color: #161E54;
+}
+
+.tarjetaquienes{
+    background: white;
+	margin-bottom: 2em;
+	width: 80%;
+    font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.cardsquienes{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cardsquienes img{
+	display: block;
+	border:0;
+	width: 100%;
+	height: auto;
+}
+
 
 /*Info Academica*/
 
@@ -153,8 +193,6 @@ p{
     gap: 1.5rem;
     width: 100%;  
     font-size: 1.5rem;
-
-    width: 100%;
     margin-bottom: 10rem;
 }
 
@@ -169,12 +207,7 @@ p{
    
     grid-template-areas: "uno dos";
     
-
     /*para meter margen entre columnas*/
-    
-    
-    
-
 }
 
 
@@ -190,7 +223,6 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .input{
@@ -209,14 +241,11 @@ p{
     background-color:#D9D9D9;
     color:#20639B;
     transition: all 0.5s;
-
 }
 
 #botones{
     display:flex;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 
 
@@ -239,9 +268,7 @@ p{
 .btm-redes{
     border: 0.2rem solid  #20639B;
     border-radius: 1rem;
-    
     padding: 1rem;
-    
 }
 
 
