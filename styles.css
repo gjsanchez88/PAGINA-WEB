@@ -58,6 +58,11 @@ a:hover{
     font-size: 1.2em;
 }
 
+nav{
+    align-items: center;
+    display: flex;
+}
+
 header ul{
     display: flex;
     align-items: center;
