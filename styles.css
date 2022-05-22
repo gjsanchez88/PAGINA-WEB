@@ -32,6 +32,21 @@ header{
     width: 100%;
 }
 
+.titulos{
+	margin: 0 0 1em;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	color: #161E54;
+}
+
+.iconos{
+    margin: 0 0 1em;
+	padding: 0.5em 0;
+	text-align: center;
+	color: #161E54;
+}
+
 /*navegacion*/
 a{
     text-decoration: none;
@@ -93,21 +108,6 @@ nav p{
 
 /*Quienes somos*/
 
-.iconoquienes{
-    margin: 0 0 1em;
-	padding: 0.5em 0;
-	text-align: center;
-	color: #161E54;
-}
-
-.tituloquienes{
-	margin: 0 0 1em;
-	font-size: 2em;
-	font-weight: 300;
-	text-align: center;
-	color: #161E54;
-}
-
 .tarjetaquienes{
     background: white;
 	margin-bottom: 2em;
@@ -132,21 +132,6 @@ nav p{
 
 
 /*Info Academica*/
-
-.iconoinfo{
-    margin: 0 0 1em;
-	padding: 0.5em 0;
-	text-align: center;
-	color: #161E54;
-}
-
-.tituloinfo{
-	margin: 0 0 1em;
-	font-size: 2em;
-	font-weight: 300;
-	text-align: center;
-	color: #161E54;
-}
 
 .tarjetainfo{
     background: white;
@@ -175,11 +160,6 @@ nav p{
 }
 
 /*contacto*/
-.titulos{
-    text-align: center;
-    font-size: 2.5rem;
-}
-
 .contenedor-contacto{
     display: -webkit-flex;
     display: flex;
