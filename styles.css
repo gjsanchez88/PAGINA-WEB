@@ -134,11 +134,35 @@ p{
 	height: auto;
 }
 
+/*Bolsa de trabajo*/
+.box-bolsa{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.box-bolsa ul {
+	
+	list-style: none;
+	padding: 3rem;
+	margin: 0;
+}
+
+.titulos2{
+    font-size: 2rem;
+}
+    
+
+
 /*contacto*/
 .titulos{
     text-align: center;
     font-size: 2.5rem;
 }
+
+
 
 .contenedor-contacto{
     display: -webkit-flex;
