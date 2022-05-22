@@ -45,6 +45,7 @@ a:hover{
 header ul{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 header li{
@@ -66,7 +67,7 @@ p{
 .itemindex{
     width: 25%;
     height: 8rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
     color: #161E54;
