@@ -40,6 +40,10 @@ header{
 	color: #161E54;
 }
 
+.titulos2{
+    font-size: 2rem;
+}
+
 .iconos{
     margin: 0 0 1em;
 	padding: 0.5em 0;
@@ -175,17 +179,11 @@ nav p{
 	margin: 0;
 }
 
-.titulos2{
-    font-size: 2rem;
-}
+
     
 
 
-/*contacto*/
-.titulos{
-    text-align: center;
-    font-size: 2.5rem;
-}
+
 
 
 
