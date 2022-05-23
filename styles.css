@@ -276,6 +276,7 @@ nav p{
     grid-column-gap: 10rem;
     justify-content: center;
     
+    
 }
 
 
@@ -361,6 +362,15 @@ nav p{
 
 
 
+@media screen and (max-width:640px){
+    .contenedor-contacto2{
+        grid-template-areas:    "uno"
+                                "dos"
+                               
+                                
+                                ; 
+    }
+}
 
 
 @media screen and (max-width: 600px){
@@ -377,7 +387,7 @@ nav p{
        
     }
 }
-*/
+
 
 @media screen and  (max-width:980) {
     #sede1,
