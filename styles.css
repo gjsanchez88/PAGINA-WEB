@@ -51,6 +51,10 @@ header{
 	color: #161E54;
 }
 
+.img{
+    border-radius: 1rem;
+}
+
 /*navegacion*/
 a{
     text-decoration: none;
@@ -86,33 +90,49 @@ nav p{
 #contenedor-index{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/* le decimos que si no hay suficiente espacio que se arme una linea abajo, con esto siempre ocupa el ancho de pantalla, genera una segunda linea*/
+    
+    
 }
 
 .itemindex{
     width: 25%;
-    height: 8rem;
+    height: auto;
     font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
     color: #161E54;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
 
 .i-quienessomos{
     background: #3CAEA3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    
+
 }
 
 .i-infoacademica{
     background: #9BDD97;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
 }
 
 .i-bolsatrabajo{
     background: #F6D55E;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
 }
 
 .i-contacto{
     background: #ED553B;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
 }
 
 /*Quienes somos*/
@@ -124,6 +144,7 @@ nav p{
     font-size: 1em;
 	font-weight: 400;
 	text-align: center;
+    
 }
 
 .cardsquienes{
@@ -149,6 +170,11 @@ nav p{
     font-size: 1.2em;
 	font-weight: 400;
 	text-align: center;
+    display: grid;
+    justify-content: center;
+    
+    
+
 }
 
 .cardsinfo{
@@ -169,9 +195,13 @@ nav p{
 }
 
 /*Bolsa de trabajo*/
+#iconopala{
+    height: 10rem;
+    width: 10rem;
+}
+
 .box-bolsa{
     margin-top: 5rem;
-    margin-bottom: 5rem;
     margin-left: 10rem;
     margin-right: 10rem;
 }
@@ -185,11 +215,24 @@ nav p{
 }
 
 
-    
+#btm-bolsa{
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border:solid;
+    background-color:#D9D9D9;
+    color:#20639B;
+    transition: all 0.5s;
+    font-size: 2rem;
+}   
 
 
 
-
+#sugerencias{
+    list-style: none;
+	padding: 3rem;
+	margin: 0;
+    text-align: center;
+}
 
 
 .contenedor-contacto{
@@ -265,16 +308,31 @@ nav p{
     transition: all 0.5s;
 }
 
-#botones{
-    display:flex;
-    justify-content: center;   
+.botones{
+    display:grid;
+    justify-content: center; 
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border:solid 0.2rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    color:#20639B;
+    transition: all 0.2s;  
+}
+
+#estatuto{
+    display: flex;
+    justify-content: center;
+    width: auto;
+
+   
 }
 
 
 .gridarea2{
     display:grid;
     grid-area: dos;
-    grid-template-rows: 12%  29% 29% 29%;
+    grid-template-rows: 12%  88%;
 }
 
 .links-contacto{
