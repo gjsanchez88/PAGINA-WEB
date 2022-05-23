@@ -51,9 +51,6 @@ header{
 	color: #161E54;
 }
 
-.img{
-    border-radius: 1rem;
-}
 
 /*navegacion*/
 a{
@@ -158,6 +155,7 @@ nav p{
 	border:0;
 	width: 100%;
 	height: auto;
+    border-radius: 1rem;
 }
 
 
@@ -171,7 +169,7 @@ nav p{
 	font-weight: 400;
 	text-align: center;
     display: grid;
-    justify-content: center;
+    
 
     
 
@@ -192,6 +190,13 @@ nav p{
 	border:0;
 	width: 100%;
 	height: auto;
+    border-radius: 1rem;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 /*Bolsa de trabajo*/
@@ -206,13 +211,13 @@ nav p{
     margin-right: 10rem;
 }
 
-/*
+
 .box-bolsa ul {
 	
 	list-style: none;
 	padding: 3rem;
 	margin: 0;
-}*/
+}
 
 
 #btm-bolsa{
