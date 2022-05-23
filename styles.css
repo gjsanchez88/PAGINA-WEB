@@ -223,7 +223,7 @@ nav p{
 	
 	list-style: none;
 	padding: 3rem;
-	margin: 0;
+	
 }
 
 
@@ -235,16 +235,21 @@ nav p{
     color:#20639B;
     transition: all 0.5s;
     font-size: 2rem;
+    border-radius: 1rem;
 }   
 
 
 
 #sugerencias{
-    list-style: none;
+    
 	
-	margin: 0;
     text-align: center;
-    justify-content: space-around;
+    
+}
+
+#sugerencias ul{
+    list-style: none;
+    padding: 2rem;
 }
 
 /*contacto*/
@@ -318,7 +323,18 @@ nav p{
     transition: all 0.2s;  
 }
 
-
+#estatuto{
+    display:grid;
+    justify-content: center; 
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border:solid 0.2rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    color:#20639B;
+    transition: all 0.2s;
+    font-size: 2rem;
+}
 
 
 .gridarea2{
@@ -329,31 +345,21 @@ nav p{
 
 .links-contacto{
     display: grid;
-    justify-content: center;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: auto;
-    align-content: start;
-    grid-gap: 1rem;
+    justify-content: center;    
+    grid-gap: 1.5rem;
+    height: 15%;
 }
 
 
 .btm-redes{
-    border: 0.2rem solid  #20639B;
+    display: grid;
+    align-content: center;
+    border:none;
     border-radius: 1rem;
     padding: 1rem;
 }
 
 
-/*
-#sede1{
-    width: 30%;
-}
-#sede2{
-    width: 30%;
-}
-#sede3{
-    width: 30%;
-}
 
 
 
@@ -391,6 +397,10 @@ footer{
 footer li{
     list-style-type: none;
     
+}
+
+footer ul{
+    padding: 0.5rem;
 }
 
 .links{
