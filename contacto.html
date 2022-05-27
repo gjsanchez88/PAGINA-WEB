@@ -86,14 +86,60 @@
                 <fieldset>
                     <legend class="titulos">Suscribite a nuestra comunidad!</legend>
                     
-                    <form class="form-long" action="https://formspree.io/f/moqrrarr" method="post">
-                                                
-                        <input class="input" type="text" name="nombre" placeholder=" Nombre" required autofocus>
+                    <form class="form-long" id="formulario" action="https://formspree.io/f/moqrrarr" method="post">
                         
-                        <input class="input" type="text"  name="apellido" placeholder=" Apellido" required autofocus>
-                        <input class="input" type="email" name="email"  placeholder=" E-mail: name@example.com" required autofocus>
-                        <input class="input" type="text"  name="universidad" placeholder=" Universidad"    required>        
-                        <textarea class="input" name="Comentarios" placeholder=" Comentarios" id="" cols="20" rows="5"></textarea>
+                        <!--Grupo nombre-->
+                        <div class="formulario__grupo" id="grupo__nombre">
+                            <div class="formulario__grupo-input">
+                                <input class="input" type="text" name="nombre" id="nombre" placeholder=" Nombre" required autofocus>
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                
+                                
+                            </div>
+                            <p class="formulario__input-error">El nombre sólo puede contener letras y espacios</p>
+                        </div> 
+                        
+
+                        <!--Grupo Apellido-->
+                        <div class="formulario__grupo" id="grupo__apellido">
+                            <div class="formulario__grupo-input">
+                                <input class="input" type="text" name="apellido" id="apellido" placeholder=" Apellido" required autofocus>
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                
+                            </div>
+                            <p class="formulario__input-error">El apellido sólo puede contener letras y espacios</p>
+                        </div>   
+
+
+                        <!--Grupo email-->
+                        <div class="formulario__grupo" id="grupo__email">
+                            <div class="formulario__grupo-input">
+                                <input class="input" type="email" name="email" id="email"  placeholder=" E-mail: name@example.com" required autofocus>
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                
+                            </div>
+                            <p class="formulario__input-error">El mail sólo puede contener letras, números, puntos, guiones y guión bajo</p>
+                        </div>   
+
+
+
+                        <!--Grupo Universisdad-->
+                        <div class="formulario__grupo" id="grupo__universidad">
+                            <div class="formulario__grupo-input">
+                                <input class="input" type="text" id="universidad" name="universidad" placeholder=" Universidad"    required>   
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                
+                            </div>
+                            <p class="formulario__input-error">El universidad sólo puede contener letras y espacios</p>
+                        </div>   
+                        
+                        
+                        
+                        
+                        <div>
+                            <textarea class="input" name="Comentarios" placeholder=" Comentarios" id=""   rows="5"></textarea>
+                        </div>    
+                        
                                                        
                         <div class="centrar">
                             <section>
@@ -133,6 +179,8 @@
             </section>
         </div>
 
+
+
     </main>
 
 
@@ -167,5 +215,9 @@
     </footer>
 
 
+    <script src="script.js"></script>
+
 </body>
+
+
 </html>
