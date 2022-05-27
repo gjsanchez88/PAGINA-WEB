@@ -94,7 +94,7 @@ const validarFormulario = (e) => {
             }
 		break;
 	}
-}   
+}  
 
 
 
